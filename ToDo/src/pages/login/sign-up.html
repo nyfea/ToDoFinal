@@ -1,0 +1,33 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Sign Up</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1> SIGN UP</h1>
+    <fieldset>
+        <legend>Identificação do Usuário</legend>
+        <p><label for="name">Nome:</label><input type="text" id="nome" size="20" maxlength="30" 
+                placeholder="Nome completo"></p>
+        <p><label for="user">Username:</label><input type="text" id="user" size="20" maxlength="30"
+                placeholder="Username"></p>
+        <p><label for="email">E-mail:</label><input type="email" id="email" size="20" maxlength="30"
+                placeholder="E-mail"></p>
+        <p><label for="senha">Password:</label><input type="password" id="senha" size="8" maxlength="8"
+                placeholder="8 Digitos"></p>
+        <fieldset id="sexo">
+            <legend>Sexo:</legend>
+            <input type="radio" name="t-sexo" id="c-masc" checked>
+            <label for="c-masc">Masculino</label>
+            <input type="radio" name="t-sexo" id="c-fem">
+            <label for="c-fem">Feminino</label>
+        </fieldset>
+        <br><input type="submit" value="Sign up">   
+    </fieldset>
+
+</ion-content>
